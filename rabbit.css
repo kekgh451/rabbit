@@ -79,7 +79,7 @@ li:hover  {
    width: 8.3vw;
 }
 
-#one {background-color:##ff9152;}
+#one {background-color:#ff9152;}
 #two {background-color:#c7b830;}
 #three {background-color:#30c758;}
 #four {background-color:#33638a;}
@@ -581,7 +581,6 @@ img {
   line-height: 2vw;
   letter-spacing: 0.2vw;
   color: #3c223d;
-}
   font-size: 1.31vw;
   line-height: 2vw;
   letter-spacing: 0.2vw;
