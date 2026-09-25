@@ -249,15 +249,15 @@ body {
 
  
 
-  .nav {
+   .nav {
     position: fixed;
     display: block;
     font-family: "Seymour One", sans-serif;
     font-size: 0.85vw;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    margin-left: -245px;
-    margin-top: -6vw;
+    margin-left: -145px;
+    margin-top: -12vw;
     letter-spacing: 0.2vw;
     z-index: 3;
     color: #453c41;
