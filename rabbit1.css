@@ -429,8 +429,8 @@ body {
   .poster {
     overflow: hidden;
     width: 350px;
-    margin-top: 15vw;
-    margin-left: -325px;
+    margin-top: 70vw;
+    margin-left: -395px;
     z-index: 1;
     filter: drop-shadow(4px 10px 15px #ffdbc7);
   }
