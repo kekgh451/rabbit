@@ -75,10 +75,10 @@ body {
     width: 8.3vw;
   }
 
-  #one   { background-color: #ff9152; }
-  #two   { background-color: #c7b830; }
+  #one   { background-color: #f5a24e; }
+  #two   { background-color: #cdeb60; }
   #three { background-color: #30c758; }
-  #four  { background-color: #33638a; }
+  #four  { background-color: #96cbfa; }
   #five  { background-color: #4c338a; }
   #six   { background-color: #a33198; }
 
@@ -219,12 +219,12 @@ body {
     color: #453c41;
   }
 
-  #one2   { background: linear-gradient(135deg, #ff9152, #c7b830); }
-  #two2   { background: linear-gradient(135deg, #c7b830, #30c758); }
+  #one2   { background: linear-gradient(135deg, #f5a24e, #c7b830); }
+  #two2   { background: linear-gradient(135deg, #cdeb60, #7be39d); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
-  #four2  { background: linear-gradient(135deg, #33638a, #6ea4e6); }
-  #five2  { background: linear-gradient(135deg, #4c338a, #cb71d9); }
-  #six2   { background: linear-gradient(135deg, #a33198, #ff9152); }
+  #four2  { background: linear-gradient(135deg, #96cbfa, #4664db); }
+  #five2  { background: linear-gradient(135deg, #4c338a, ##ff78c9); }
+  #six2   { background: linear-gradient(135deg, #a33198, #f9152); }
 
   .poster {
     width: 70vw;
@@ -250,12 +250,12 @@ body {
     position: fixed;
     display: block;
     font-family: "Seymour One", sans-serif;
-    font-size: 0.85vw;
-    transform: rotate(-90deg);
-    margin-left: -0px;
-    margin-top: 20vw;
-    letter-spacing: 0.2vw;
-    z-index: 3;
+   font-size: 12px;
+  transform: rotate(-90deg);
+  margin-left: 0px;
+  margin-top: 15vw;
+  letter-spacing: 0.2vw;
+  z-index: 3;
     color: #453c41;
   }
 
@@ -271,12 +271,13 @@ body {
     width: 80px;
   }
 
-  #one   { background-color: #ff9152; }
-  #two   { background-color: #c7b830; }
+  #one   { background-color: #f5a24e; }
+  #two   { background-color: #cdeb60; }
   #three { background-color: #30c758; }
-  #four  { background-color: #33638a; }
+  #four  { background-color: #96cbfa; }
   #five  { background-color: #4c338a; }
   #six   { background-color: #a33198; }
+
 
   section {
     position: relative;
@@ -419,18 +420,19 @@ body {
     color: #453c41;
   }
 
-  #one2   { background: linear-gradient(135deg, #ff9152, #c7b830); }
-  #two2   { background: linear-gradient(135deg, #c7b830, #30c758); }
+ #one2   { background: linear-gradient(135deg, #f5a24e, #c7b830); }
+  #two2   { background: linear-gradient(135deg, #cdeb60, #7be39d); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
-  #four2  { background: linear-gradient(135deg, #33638a, #6ea4e6); }
-  #five2  { background: linear-gradient(135deg, #4c338a, #cb71d9); }
-  #six2   { background: linear-gradient(135deg, #a33198, #ff9152); }
+  #four2  { background: linear-gradient(135deg, #96cbfa, #4664db); }
+  #five2  { background: linear-gradient(135deg, #4c338a, ##ff78c9); }
+  #six2   { background: linear-gradient(135deg, #a33198, #f9152); }
+
 
   .poster {
     overflow: hidden;
     width: 350px;
-    margin-top: 70vw;
-    margin-left: -395px;
+    margin-top: 6vw;
+    margin-left: -300px;
     z-index: 1;
     filter: drop-shadow(4px 10px 15px #ffdbc7);
   }
