@@ -53,13 +53,14 @@ body {
   .nav {
     position: fixed;
     display: block;
-    font-family: "Caveat", cursive;
+    font-family: "Seymour One", sans-serif;
     font-size: 12px;
     transform: rotate(-90deg);
     margin-left: 0px;
     margin-top: 15vw;
     letter-spacing: 0.2vw;
     z-index: 3;
+    color: #453c41;
   }
 
   li {
@@ -147,12 +148,12 @@ body {
   }
 
   #title {
-    font-family: "Caveat", cursive;
+    font-family: "Seymour One", sans-serif;
     font-size: 9vw;
     margin-top: 31vw;
     margin-left: 17vw;
     line-height: 6vw;
-    color: #3c223d;
+    color: #453c41;
     opacity: 1;
     animation: move 5s;
   }
@@ -169,11 +170,12 @@ body {
   }
 
   .uppertext {
-    font-family: "Caveat", cursive;
+    font-family: "Seymour One", sans-serif;
     font-size: 2.9vw;
     letter-spacing: 0.1vw;
     margin-top: 5vw;
     margin-left: 17vw;
+    color: #453c41;
   }
 
   @keyframes expand {
@@ -189,11 +191,11 @@ body {
 
   .scroll {
     position: relative;
-    font-family: "Comforter", cursive;
+    font-family: "Ubuntu Condensed", sans-serif;
     font-size: 3vw;
     font-weight: 900;
     letter-spacing: 0.3vw;
-    color: #3c223d;
+    color: #453c41;
     margin-left: 30vw;
     margin-top: 70vw;
   }
@@ -210,18 +212,18 @@ body {
     width: 70vw;
     margin-left: 18vw;
     margin-top: 30vw;
-    font-family: "Comforter", cursive;
+    font-family: "Ubuntu Condensed", sans-serif;
     font-size: 2.8vw;
     line-height: 3.4vw;
     letter-spacing: 0.3vw;
-    color: #3c223d;
+    color: #453c41;
   }
 
   #one2   { background: linear-gradient(135deg, #c74630, #c7b830); }
   #two2   { background: linear-gradient(135deg, #c7b830, #30c758); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
-  #four2  { background: linear-gradient(135deg, #33638a, #4c338a); }
-  #five2  { background: linear-gradient(135deg, #4c338a, #a33198); }
+  #four2  { background: linear-gradient(135deg, #6ea4e6, #d12deb); }
+  #five2  { background: linear-gradient(135deg, #cb71d9, #fa618f); }
   #six2   { background: linear-gradient(135deg, #a33198, #c74630); }
 
   .poster {
@@ -253,6 +255,7 @@ body {
     margin-top: -12vw;
     letter-spacing: 0.2vw;
     z-index: 3;
+    color: #453c41;
   }
 
   li {
@@ -347,7 +350,7 @@ body {
     margin-top: 25%;
     margin-left: 2%;
     line-height: 2.63vw;
-    color: #3c223d;
+    color: #453c41;
     opacity: 1;
     animation: move 3s;
   }
@@ -369,6 +372,7 @@ body {
     letter-spacing: 0.25vw;
     margin-top: 2.63vw;
     margin-left: 10.1vw;
+    color: #453c41;
   }
 
   @keyframes expand {
@@ -388,7 +392,7 @@ body {
     font-size: 0.80vw;
     font-weight: 900;
     letter-spacing: 0.1vw;
-    color: #3c223d;
+    color: #453c41;
     margin-left: 45vw;
     margin-top: 20vw;
   }
@@ -411,14 +415,14 @@ body {
     font-size: 1.31vw;
     line-height: 2vw;
     letter-spacing: 0.2vw;
-    color: #3c223d;
+    color: #453c41;
   }
 
   #one2   { background: linear-gradient(135deg, #c74630, #c7b830); }
   #two2   { background: linear-gradient(135deg, #c7b830, #30c758); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
-  #four2  { background: linear-gradient(135deg, #33638a, #4c338a); }
-  #five2  { background: linear-gradient(135deg, #4c338a, #a33198); }
+  #four2  { background: linear-gradient(135deg, #6ea4e6, #d12deb); }
+  #five2  { background: linear-gradient(135deg, #cb71d9, #fa618f); }
   #six2   { background: linear-gradient(135deg, #a33198, #c74630); }
 
   .poster {
