@@ -223,8 +223,9 @@ body {
   #two2   { background: linear-gradient(135deg, #cdeb60, #7be39d); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
   #four2  { background: linear-gradient(135deg, #96cbfa, #4664db); }
-  #five2  { background: linear-gradient(135deg, #4c338a, ##ff78c9); }
-  #six2   { background: linear-gradient(135deg, #a33198, #f9152); }
+   #five2  { background: linear-gradient(135deg, #4c338a, #ff78c9); }
+  #six2   { background: linear-gradient(135deg, #a33198, #ff217e); }
+
 
   .poster {
     width: 70vw;
@@ -246,18 +247,18 @@ body {
     z-index: 3;
   }
 
-  .nav {
-    position: fixed;
-    display: block;
-    font-family: "Seymour One", sans-serif;
-   font-size: 12px;
+ .nav {
+  position: fixed;
+  display: block;
+  font-family: "Seymour One", sans-serif;
+  font-size: 0.85vw;
   transform: rotate(-90deg);
-  margin-left: 0px;
-  margin-top: 15vw;
+  margin-left: -245px;
+  margin-top: -12vw;
   letter-spacing: 0.2vw;
   z-index: 3;
-    color: #453c41;
-  }
+  color: #453c41;
+}
 
   li {
     content: '';
@@ -424,8 +425,8 @@ body {
   #two2   { background: linear-gradient(135deg, #cdeb60, #7be39d); }
   #three2 { background: linear-gradient(135deg, #30c758, #33638a); }
   #four2  { background: linear-gradient(135deg, #96cbfa, #4664db); }
-  #five2  { background: linear-gradient(135deg, #4c338a, ##ff78c9); }
-  #six2   { background: linear-gradient(135deg, #a33198, #f9152); }
+  #five2  { background: linear-gradient(135deg, #4c338a, #ff78c9); }
+  #six2   { background: linear-gradient(135deg, #a33198, #ff217e); }
 
 
   .poster {
