@@ -430,7 +430,7 @@ body {
     overflow: hidden;
     width: 350px;
     margin-top: 6vw;
-    margin-left: 525px;
+    margin-left: -305px;
     z-index: 1;
     filter: drop-shadow(4px 10px 15px #ffdbc7);
   }
