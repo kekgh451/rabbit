@@ -1,7 +1,7 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Marck+Script&family=Seymour+One&family=Ubuntu+Condensed&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comforter&family=Marck+Script&family=Seymour+One&display=swap');
 ::-webkit-scrollbar {
   width: 13px;
 
@@ -36,7 +36,7 @@ html {
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #e3af81;
+    background-color: #f2aa96;
   }     
     
 *{
@@ -58,7 +58,7 @@ ul {
 .nav {
   position: fixed;
   display: block;
-  font-family: 'Montserrat', sans-serif;
+    font-family: "Caveat", cursive;
   font-size: 12px;
   transform: rotate(-90deg);
   margin-left: 0px;
@@ -79,7 +79,7 @@ li:hover  {
    width: 8.3vw;
 }
 
-#one {background-color:#c74630;}
+#one {background-color:##ff9152;}
 #two {background-color:#c7b830;}
 #three {background-color:#30c758;}
 #four {background-color:#33638a;}
@@ -165,7 +165,7 @@ img {
 }
   
 #title {
-  font-family: 'Montserrat', sans-serif;
+   font-family: "Caveat", cursive;
   font-size: 9vw;
   margin-top: 31vw;
   margin-left: 17vw;
@@ -187,7 +187,7 @@ img {
   }
   
 .uppertext {
-  font-family: "Marck Script", cursive;
+   font-family: "Caveat", cursive;
   font-size: 2.9vw;
   letter-spacing: 0.1vw;
   margin-top: 5vw;
@@ -206,7 +206,7 @@ img {
   }
   .scroll {
   position: relative;
-  font-family: "Marck Script", cursive;
+ font-family: "Comforter", cursive;
   font-size: 3vw;
   font-weight: 900;
   letter-spacing: 0.3vw;
@@ -226,40 +226,39 @@ img {
   width: 70vw;
   margin-left: 18vw;
   margin-top: 30vw;
- font-family: "Ubuntu Condensed", sans-serif;
+ font-family: "Comforter", cursive;
   font-size: 2.8vw;
   line-height: 3.4vw;
   letter-spacing: 0.3vw;
   color: #3c223d;
 }
 #one2 {
-  background: linear-gradient(to bottom right, #c74630, #c7b830);
+  background: linear-gradient(135deg, #c74630, #c7b830);
 }
 #two2 {
-  background: linear-gradient(to bottom right, #c7b830, #30c758);
+  background: linear-gradient(135deg, #c7b830, #30c758);
 }
 #three2 {
-  background: linear-gradient(to bottom right, #30c758, #33638a);
+  background: linear-gradient(135deg, #30c758, #33638a);
   
 }
 #four2 {
-  background: linear-gradient(to bottom right, #33638a, #4c338a);
+  background: linear-gradient(135deg, #33638a, #4c338a);
   
 }
 #five2 {
-  background: linear-gradient(to bottom right, #4c338a, #a33198);
-  
+  background: linear-gradient(135deg, #4c338a, #a33198);
 }
+ #six2 {
+    background: linear-gradient(135deg, #a33198, #c74630);
+  }
 .poster {
   width: 70vw;
   margin-top: 4vw;
   margin-left: 18vw;
   z-index: 1;
 }
-#mobiletext {
-    color: #fdc9ff;
-  }  
-}
+
 /*параметры для десктопа*/
 @media only screen and (min-width:990px) {
   
@@ -274,7 +273,7 @@ ul {
 .nav {
   position: fixed;
   display: block;
- font-family: "Marck Script", cursive;
+font-family: "Seymour One", sans-serif;
   font-size: 0.85vw;
   transform: rotate(-90deg);
   margin-left: -245px;
@@ -373,7 +372,7 @@ img {
   
 #title {
   position: fixed;
- font-family: "Marck Script", cursive;
+font-family: "Seymour One", sans-serif;
   font-size: 4.31vw;
   margin-top: 25%;
   margin-left: 2%;
@@ -395,7 +394,7 @@ img {
   }
   
 .uppertext {
-  font-family: "Marck Script", cursive;
+ font-family: "Seymour One", sans-serif;
   font-size: 1vw;
   letter-spacing: 0.25vw;
   margin-top: 2.63vw;
@@ -415,7 +414,7 @@ img {
   
 .scroll {
   position: relative;
- font-family: "Marck Script", cursive;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 0.80vw;
   font-weight: 900;
   letter-spacing: 0.1vw;
@@ -438,6 +437,8 @@ img {
   width: 29.28vw;
   margin-left: 25px;
   margin-top: 4vw;
+}
+  
  section {
   position: relative;
   margin-left: -10px;
@@ -510,7 +511,7 @@ img {
   
 #title {
   position: fixed;
-  font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Seymour One", sans-serif;
   font-size: 4.31vw;
   margin-top: 25%;
   margin-left: 2%;
@@ -532,7 +533,7 @@ img {
   }
   
 .uppertext {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Seymour One", sans-serif;
   font-size: 1vw;
   letter-spacing: 0.25vw;
   margin-top: 2.63vw;
@@ -552,7 +553,7 @@ img {
   
 .scroll {
   position: relative;
- font-family: "Ubuntu Condensed", sans-serif;
+  font-family: "Ubuntu Condensed", sans-serif;
   font-size: 0.80vw;
   font-weight: 900;
   letter-spacing: 0.1vw;
@@ -575,7 +576,7 @@ img {
   width: 29.28vw;
   margin-left: 25px;
   margin-top: 4vw;
-  font-family: 'Montserrat', sans-serif;
+    font-family: "Ubuntu Condensed", sans-serif;
   font-size: 1.31vw;
   line-height: 2vw;
   letter-spacing: 0.2vw;
@@ -587,29 +588,31 @@ img {
   color: #3c223d;
 }
 #one2 {
-  background: linear-gradient(to bottom right, #c74630, #c7b830);
+  background: linear-gradient(135deg, #c74630, #c7b830);
 }
 #two2 {
-  background: linear-gradient(to bottom right, #c7b830, #30c758);
+  background: linear-gradient(135deg, #c7b830, #30c758);
 }
 #three2 {
-  background: linear-gradient(to bottom right, #30c758, #33638a);
+  background: linear-gradient(135deg, #30c758, #33638a);
   
 }
 #four2 {
-  background: linear-gradient(to bottom right, #33638a, #4c338a);
+  background: linear-gradient(135deg, #33638a, #4c338a);
   
 }
 #five2 {
-  background: linear-gradient(to bottom right, #4c338a, #a33198);
-  
+  background: linear-gradient(135deg, #4c338a, #a33198);
 }
+ #six2 {
+    background: linear-gradient(135deg, #a33198, #c74630);
+  }
 .poster {
   overflow: hidden;
   width: 350px;
   margin-top: 6vw;
   margin-left: 525px;
   z-index: 1;
- filter: drop-shadow(4px 10px 15px цвет тени);
+ filter: drop-shadow(4px 10px 15px #ffdbc7);
 }
 }
